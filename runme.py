@@ -49,7 +49,7 @@ class TaskManager:
     for task in self.tasks:
       print(task)
 
-  def completedTask(self, taskId:int="", cli:bool=False):
+  def completeTask(self, taskId:int="", cli:bool=False):
     '''
     taskId: int - Task ID.
     cli:bool - If true will run this method in cli mode.
@@ -151,7 +151,7 @@ class TaskManager:
       print("Please enter name of available functionality to use it:")
       print("[0] - addTask")
       print("[1] - viewTask")
-      print("[2] - completedTask")
+      print("[2] - completeTask")
       print("[3] - deleteTask")
       print("[4] - loadTask")
       print("[5] - saveTask")
@@ -166,7 +166,7 @@ class TaskManager:
       elif userInput == 1:
         self.viewTask()
       elif userInput == 2:
-        self.completedTask(cli=True)
+        self.completeTask(cli=True)
       elif userInput == 3:
         self.deleteTask(cli=True)
       elif userInput == 4:
