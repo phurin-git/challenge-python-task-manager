@@ -1,18 +1,34 @@
 [
   {
-    "id": 610220,
-    "name": "TaskManager Prototype",
-    "description": "For WeStride Challenge",
-    "started date": "24/10/2024",
-    "completed date": "-",
-    "status": "Waiting"
-  },
-  {
     "id": 257409,
     "name": "Test saveTask",
     "description": "for test saveTask method",
     "started date": "24/10/2024",
     "completed date": "-",
     "status": "Waiting"
+  },
+  {
+    "id": 286581,
+    "name": "Test CLI",
+    "description": "for test method in cli mode",
+    "started date": "24/10/2024",
+    "completed date": "-",
+    "status": "Waiting"
+  },
+  {
+    "id": 118199,
+    "name": "Test CLI",
+    "description": "for test method inline mode",
+    "started date": "24/10/2024",
+    "completed date": "-",
+    "status": "Waiting"
+  },
+  {
+    "id": 161219,
+    "name": "Test addTask in CLI mode",
+    "description": "",
+    "started date": "24/10/2024",
+    "completed date": "24/10/2024",
+    "status": "Completed"
   }
 ]
